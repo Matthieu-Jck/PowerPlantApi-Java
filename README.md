@@ -26,7 +26,7 @@ Java 17+, Maven 3.8+, Docker 20+           |
 # Clone project
 
 ```bash
-git clone https://github.com/Matthieu-Jck/PowerPlant-Api.git
+git clone https://github.com/Matthieu-Jck/PowerPlantApi-Java.git
 cd PowerPlant-Api
 ```
 
@@ -44,7 +44,7 @@ Same for tests
 
 ```bash
 mvn clean package -DskipTests
-java -jar target/PowerPlant-Api-1.0.0.jar
+java -jar target/PowerPlantApi-Java-1.0.0.jar
 ```
 
 API available at http://localhost:8888
@@ -54,14 +54,14 @@ API available at http://localhost:8888
 ## Option 3 — Docker
 
 ```bash
-docker build -t PowerPlant-Api .
-docker run -p 8888:8888 PowerPlant-Api
+docker build -t PowerPlantApi-Java .
+docker run -p 8888:8888 PowerPlantApi-Java
 ```
 
 Detached mode:
 
 ```bash
-docker run -d -p 8888:8888 --name PowerPlant-Api PowerPlant-Api
+docker run -d -p 8888:8888 --name PowerPlantApi-Java PowerPlantApi-Java
 ```
 
 ---
